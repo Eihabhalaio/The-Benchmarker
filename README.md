@@ -1,4 +1,4 @@
-# Ollama Benchmark
+# The-Benchmarker
 
 > Measure and compare LLM inference performance on **your** hardware — CPU speed, GPU tokens/sec, VRAM usage, and more.
 
@@ -31,7 +31,7 @@
 
 ```bash
 git clone https://github.com/Eihabhalaio/The-Benchmarker.git
-cd ollama-benchmark
+cd The-Benchmarker
 pip install -r requirements.txt
 ```
 
@@ -84,7 +84,7 @@ options:
 
 ```
 ╭─────────────────────────────╮
-│ 🚀 Ollama Benchmark         │
+│ 🚀 The-Benchmarker          │
 │ Measure LLM inference speed │
 ╰─────────────────────────────╯
 

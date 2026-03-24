@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="ollama-benchmark",
+    name="the-benchmarker",
     version="1.0.0",
     author="Eihabhalaio",
     description="Measure and compare LLM inference performance on your hardware",
@@ -32,7 +32,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "ollama-benchmark=benchmark:main",
+            "the-benchmarker=benchmark:main",
         ],
     },
 )

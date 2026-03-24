@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Ollama Benchmark — measure LLM inference performance on your hardware.
+The-Benchmarker — measure LLM inference performance on your hardware.
 https://github.com/Eihabhalaio/The-Benchmarker
 """
 
@@ -386,7 +386,7 @@ def save_results(system_info: dict, all_results: list[dict], output_dir: str = "
 def generate_markdown_report(system_info: dict, all_results: list[dict]) -> str:
     ts = datetime.now().strftime("%Y-%m-%d %H:%M")
     lines = [
-        "# Ollama Benchmark Report",
+        "# The-Benchmarker Report",
         f"*Generated: {ts}*\n",
         "## System",
         "| Component | Spec |",
@@ -488,7 +488,7 @@ def main():
     OLLAMA_BASE = args.url
 
     console.print(Panel.fit(
-        "[bold green]🚀 Ollama Benchmark[/bold green]\n"
+        "[bold green]🚀 The-Benchmarker[/bold green]\n"
         "[dim]Measure LLM inference speed on your hardware[/dim]",
         border_style="green",
     ))
