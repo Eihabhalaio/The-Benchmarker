@@ -7,11 +7,11 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="the-benchmarker",
     version="1.0.0",
-    author="Eihabhalaio",
+    author="xnox-me By Dronat011",
     description="Measure and compare LLM inference performance on your hardware",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Eihabhalaio/The-Benchmarker",
+    url="https://github.com/xnox-me/The-Benchmarker",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Production/Stable",

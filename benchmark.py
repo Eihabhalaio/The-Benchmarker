@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 The-Benchmarker — measure LLM inference performance on your hardware.
-https://github.com/Eihabhalaio/The-Benchmarker
+https://github.com/xnox-me/The-Benchmarker
 """
 
 import argparse
@@ -631,8 +631,8 @@ def generate_html_report(system_info: dict, all_results: list[dict]) -> str:
 <body>
 <h1>🚀 The-Benchmarker</h1>
 <p class="subtitle">Generated: {ts} &nbsp;|&nbsp;
-  <a href="https://github.com/Eihabhalaio/The-Benchmarker" style="color:var(--accent)">
-    github.com/Eihabhalaio/The-Benchmarker</a></p>
+  <a href="https://github.com/xnox-me/The-Benchmarker" style="color:var(--accent)">
+    github.com/xnox-me/The-Benchmarker</a></p>
 
 <h2>System</h2>
 <table style="margin-bottom:2rem">

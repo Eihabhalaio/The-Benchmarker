@@ -30,7 +30,7 @@
 ## Installation
 
 ```bash
-git clone https://github.com/Eihabhalaio/The-Benchmarker.git
+git clone https://github.com/xnox-me/The-Benchmarker.git
 cd The-Benchmarker
 pip install -r requirements.txt
 ```
