@@ -30,7 +30,7 @@
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ollama-benchmark.git
+git clone https://github.com/Eihabhalaio/The-Benchmarker.git
 cd ollama-benchmark
 pip install -r requirements.txt
 ```

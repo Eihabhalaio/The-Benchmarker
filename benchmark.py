@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Ollama Benchmark — measure LLM inference performance on your hardware.
-https://github.com/YOUR_USERNAME/ollama-benchmark
+https://github.com/Eihabhalaio/The-Benchmarker
 """
 
 import argparse
